@@ -1,8 +1,5 @@
 # Homework-2
 
-This is the Responsive Portfolio homework assignment consisting of three pages using a responsive design with Bootstrap components and grid system.
+This page is intended to reflect a 'Responsive Portfolio' with Bootstrap components allowing views to see the page on multiple device sizes, scaled appropriately.
 
-Each page is expected to re-scale appropriately depending on window size and device size.
-
-The navbar is expected to remain consistent across all pages.
-
+This is the first iteration of this site, which will evolve through the course of the UNC Coding Bootcamp class.
