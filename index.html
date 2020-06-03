@@ -7,13 +7,38 @@
   <title>Home/About</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+
+  <style>
+    body {
+      background-image: url("./jellyfish.jpg");
+      background-color: #8a9d9a;
+      height: 800px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+  </style>
+
+  <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      /* background-color: red; */
+      color: white;
+      text-align: center;
+    }
+  </style>
+
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Turned the navbar logo into a helpful link. -->
-    <a class="navbar-brand" href="https://www.cdc.gov/" target="_blank">🌎</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
     <a class="navbar-brand" href="#">Russ Reed</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +46,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <!-- <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact Me</a>
         </li>
@@ -34,24 +59,42 @@
     </div>
   </nav>
 
-  <section class="jumbotron">
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row no-gutters">
-        <article class="col-xs-3 col-sm-6">
-          <img src="pix/RussIan.jpg" class="card-img" style="max-width: 250px"
-            alt="Russ and his son, both redheads, matching sweathers, making faces.">
-        </article>
-        <article class="col-xs-6 col-sm-6">
-          <div class="card-body">
-            <h5 class="card-title">Russ Reed</h5>
-            <p class="card-text">I (the one on the left) am a tech-savvy student in the Coding Bootcamp program at UNC.
-              With an extensive
-              history in front-line support, I'm extending my range of skills with this full-stack curriculum.</p>
+  <section class="jumbotron bg-transparent">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="card border-dark" style="overflow: hidden;">
+          <div class="row no-gutters bg-primary text-light">
+            <article class="col-4">
+              <img src="pix/RussIan.jpg" class="card-img" style="max-width: 350px"
+                alt="Russ and his son, both redheads, matching sweathers, making faces.">
+            </article>
+            <article class="col-8">
+              <div class="card-body bg-primary">
+                <h1 class="card-title">Russ Reed</h1>
+                <p class="card-text bg-primary"><h4>I am a tech-savvy student in the Coding Bootcamp program at
+                  UNC.<br><br>
+                  With an extensive
+                  history in front-line support, I'm extending my range of skills with this full-stack curriculum.</h4></p>
+              </div>
+              <button type="button" class="btn ml-5 btn-primary border-info"><b>Contact</b></button><button type="button" class="btn ml-5 btn-primary border-info"><b>Portfolio</b></button>
+            </article>
           </div>
-        </article>
+        </div>
+        <div class="col-sm">
+        </div>
       </div>
     </div>
+
+
   </section>
+
+  <div class="footer bg-transparent">
+    <p>&copy 2020 Russ Reed</p>
+  </div>
+
 </body>
 
 </html>
