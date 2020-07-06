@@ -1,4 +1,4 @@
-# Homework-2
+# Portfolio
 
 This page is intended to reflect a 'Responsive Portfolio' with Bootstrap components allowing views to see the page on multiple device sizes, scaled appropriately.
 
