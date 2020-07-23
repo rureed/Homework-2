@@ -44,7 +44,8 @@ Since this is my portfolio, it is not open to contributions.
 n/a
 
 ## Questions:
-![GitHub Profile Image](https://avatars3.githubusercontent.com/u/61715274?v=4)
+![GitHub Profile Image](https://avatars3.githubusercontent.com/u/61715274?v=4)  
+
 If you have any questions, open an issue or contact rureed at undefined.
 
 ## Media:
