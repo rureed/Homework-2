@@ -1,5 +1,53 @@
-# Portfolio
 
-This page is intended to reflect a 'Responsive Portfolio' with Bootstrap components allowing views to see the page on multiple device sizes, scaled appropriately.
+# Application:
+Portfolio
 
-This is the first iteration of this site, which will evolve through the course of the UNC Coding Bootcamp class.
+
+
+<img src=https://img.shields.io/badge/rureed-bootcamp-orange />
+
+## Description:
+Portfolio
+
+## Table of Contents:
+  
+  [Intallation Steps](#installSteps)  
+
+  [Instructions](#instructions)  
+
+  [License](#license)  
+
+  [Contributing](#contributing)  
+
+  [Tests](#tests)  
+
+  [Questions](#questions)  
+
+  [Media](#media)  
+
+  [Links](#links)  
+  
+
+## Installation Dependencies:
+n/a
+
+## Instructions:
+Follow the link, view the portfolio.
+
+## License:
+None
+
+## Contributing Information:
+Since this is my portfolio, it is not open to contributions.
+
+## Tests:
+n/a
+
+## Questions:
+![GitHub Profile Image](https://avatars3.githubusercontent.com/u/61715274?v=4)
+If you have any questions, open an issue or contact rureed at undefined.
+
+## Media:
+
+## Links:
+[Link to project](https://rureed.github.io/Portfolio/index.html)
